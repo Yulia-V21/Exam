@@ -528,6 +528,87 @@ h1, h2, h3 {
     
 }
 
+.offer {
+    padding-top: 130px;
+    padding-bottom: 150px;
+    background-color: #274C5B;
+}
+
+.offer_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.offer_content_title {
+    color: #fff;
+    font-size: 45px;
+    line-height: 58px;
+}
+
+.offer__suptitle {
+    margin-bottom: 0;
+}
+
+.offer_btn {
+    background-color: #EFD372;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.offer_btn:hover {
+    background-color: #ceb456;
+}
+
+.eco .container {
+    display: flex;
+}
+
+.eco__img {
+    width: 50%;
+}
+
+.eco__content {
+    background-color: #fff;
+    position: relative;
+    top: 45px;
+    left: -73px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 55px;
+    padding-bottom: 50px;
+    height: 50%;
+    border-radius: 30px;
+}
+.eco__s {
+    margin-bottom: 0;
+}
+
+.eco__title {
+    font-size: 44px;
+    line-height: 58px;
+    width: 50%;
+    margin-bottom: 45px;
+}
+
+.eco__suptitle {
+    font-size: 23px;
+    line-height: 32px;
+    color: #274C5B;
+}
+
+.eco__text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: #525C60;
+    width: 85%;
+    margin-bottom: 25px;
+}
+
 
 
 
