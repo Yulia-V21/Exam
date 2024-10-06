@@ -1,0 +1,354 @@
+@media (max-width: 1152px) {
+    .header__container {
+        justify-content: flex-start;
+        gap: 30px;
+    }
+    .info__content_title {
+        width: 100%;
+    }
+    #info__content_text {
+        margin-bottom: 40px;
+    }
+    .info__text {
+        width: 100%;
+    }
+    .suptitle {
+        margin-bottom: 0;
+    }
+    .eco__content {
+        top:0;
+        left: -96px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .testimonial__content {
+        margin-bottom: 20px;
+        padding-bottom: 25px;
+    }
+    .testimonial__adv_item::before {
+        display: none;
+    }
+    .testimonial__adv_item {
+        border: 4px solid #7EB693;
+        padding: 52px 24px;
+    }
+
+    #padd {
+        padding: 51px 49px;
+        }
+    .category__img {
+        justify-content: center;
+    }
+ }
+
+@media (max-width: 1024px) {
+    .adv__text__one, .adv__text__two {
+        width: 96%;
+    }
+    .eco__title {
+        width: 65%;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .promo {
+        height: 500px;
+    }
+    .promo__title {
+        font-size: 56px;
+        line-height: 51px;
+    }
+    .btn_prime {
+        padding: 10px;
+    }
+    .nav__toggle {
+        display: block;
+    }
+    .header__nav_list {
+        display: none;
+        gap: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding-left: 20px;
+        padding-top: 20px;
+        background-color: #7eb6938b;
+        width: 40%;
+        text-align: center;
+
+    }
+    .header__nav_link  {
+        font-weight: bold;
+        font-size: 22px;
+        color: #0d5527;
+        padding-bottom: 20px;
+    }
+
+    #nav__toggle:checked ~ .header__nav_list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .info .container {
+        align-items: flex-start;
+    }
+
+    .adv__one, .adv__two  {
+        gap: 0;
+    }
+
+    .adv__text__one, .adv__text__two {
+        margin-left: 10px;
+        margin-bottom: 0;
+    }
+
+    .adv__title_one, .adv_title__two  {
+        margin-top: 0;
+    }
+    .testimonial__text {
+        width: 100%;
+    }
+    .testimonial__adv_text {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .testimonial__adv_title  {
+        font-size: 27px;
+    }
+
+    .testimonial__adv_item {
+        padding: 28px 30px;
+    }
+
+    .offer_content_title  {
+        font-size: 35px;
+    }
+    #padd {
+        padding: 38px 45px;
+    }
+
+    .eco__title {
+        width: 100%;
+    }
+
+    .subscribe .container {
+        gap: 25px;
+    }
+
+    .subscribe__title {
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    .subscribe__form {
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .subscribe__form input {
+        height: 40px;
+    }
+  
+}
+
+@media (max-width: 640px) {
+
+    .title {
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+
+    .promo__title {
+        font-size: 45px;
+        line-height: 56px;
+    }
+
+    .adv .container { 
+    flex-direction: column;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    }
+
+    .adv__text__one, .adv__text__two {
+    font-size: 33px;
+    line-height: 42px;
+    margin-bottom: 45px;
+    width: 50%;
+    }
+
+    .offer_content {
+        flex-direction: column;
+    }
+
+    .subscribe__form input {
+        width: 200px;
+    }
+    .footer__contact {
+        align-items: center;
+    }
+
+    .footer__title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+}
+
+@media (max-width: 426px) {
+    .header__container {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 30px;
+    }
+    .header_btn {
+        padding: 20px 20px 15px 90px;
+    }
+    .btn_prime {
+        padding: 10px 40px 10px 21px;
+        line-height: 25px;
+    }
+
+    .promo .container {
+        justify-content: flex-start;
+    }
+    .promo {
+        height: 400px;
+    }
+
+    .suptitle {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .promo__title {
+        font-size: 28px;
+        line-height: 35px;
+ 
+    }
+    .adv__text__one, .adv__text__two {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .info__img {
+        display: none;
+    }
+    .info__content_title {
+        font-size: 28px;
+        line-height: 41px;
+        margin-bottom: 15px;
+    }
+    #info__content_text {
+        width: 100%;
+    }
+    .title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .testimonial__adv {
+        flex-wrap: wrap;
+    }
+    .testimonial__adv_item {
+        padding: 36px 22px;
+    }
+    .offer {
+        padding-top: 50px;
+    }
+    .offer_content_title {
+        font-size: 24px;
+        text-align: center;
+    }
+    .eco__title {
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .eco__text {
+        width: 140%;
+    }
+    .eco__suptitle {
+        font-size: 24px;
+    }
+    .product__info_pr {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .product__rating {
+        margin-left: 0;
+    }
+    #product__catalog {
+        margin-right: 30px;
+    }
+
+    .subscribe .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+}
+
+@media (max-width: 376px) {
+    .promo {
+        height: 455px;
+    }
+
+    .adv__title_one, .adv_title__two {
+        font-size: 31px;
+        line-height: 60px;
+        margin-left: 22px;
+    }
+    .adv__text__one, .adv__text__two {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    .info__conditions_title {
+        font-size: 30px;
+        line-height: 33px;
+    }
+    
+    .eco__btn {
+        padding: 30px 55px;
+    }
+
+    .offer_content_title {
+        font-size: 29px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 320px) {
+    .adv__title_one, .adv_title__two {
+        font-size: 24px;
+        line-height: 55px;
+    }
+    .info .container {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .product__img {
+        width: 100%;
+    }
+    .eco__title {
+        font-size: 21px;
+        line-height: 32px;
+    }
+    .eco__suptitle {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .eco__text {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .subscribe__title {
+        font-size: 28px;
+        line-height: 28px;
+    }
+}
+
+

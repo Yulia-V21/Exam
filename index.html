@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -16,6 +17,8 @@
                 </div>
 
             <nav class="header__nav">
+                <button class="nav__toggle"><label for="nav__toggle"></label></button>
+                <input type="checkbox" id="nav__toggle">
                 <ul class="header__nav_list">
                     <li class="header__nav_item"><a class="header__nav_link" href="#">Home</a></li>
                     <li class="header__nav_item"><a class="header__nav_link" href="#">About Us</a></li>
@@ -220,7 +223,7 @@
                 </div>
 
                 <div class="testimonial__adv">
-                    <div class="testimonial__adv_item">
+                    <div class="testimonial__adv_item" id="padd">
                         <h3 class="testimonial__adv_title">100%</h3>
                         <span class="testimonial__adv_text">Organic</span>
                     </div>
@@ -247,7 +250,7 @@
                     <h2 class="offer_content_title">We Offer Organic for You</h2>
                     <button class="btn_prime offer_btn">View All products<a href="#"><img class="btn_img_arrow" src="image/ico_arrow.png" alt="arrow"></a></button>
                 </div>
-                <div class="product__catalog">
+                <div class="product__catalog" id="product__catalog">
                     <div class="product__item">
                         <div class="product__position">
                             <img class="product__img" src="image/product4.png">
@@ -331,15 +334,15 @@
         <section class="category">
             <div class="category__img">
                 <div class="category__img_item">
-                    <img src="image/juice_bg.png" alt="juice">
+                    <img class="category__picture" src="image/juice_bg.png" alt="juice">
                     <button class="eco__btn">Fruit Juice</button>
                 </div>
                 <div class="category__img_item">
-                    <img src="image/food_bg.png" alt="juice">
+                    <img class="category__picture" src="image/food_bg.png" alt="juice">
                     <button class="eco__btn">Organic Food</button>
                 </div>
                 <div class="category__img_item">
-                    <img src="image/cookies_bg.png" alt="juice">
+                    <img class="category__picture" src="image/cookies_bg.png" alt="juice">
                     <button class="eco__btn">Nuts Cookies</button>
                 </div>
             </div>
@@ -388,6 +391,9 @@
                 </div>
             </div>
         </footer>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5847694.92073357!2d-97.6062311100335!3d44.30337600436004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b333909377bbbd%3A0x939fc9842f7aee07!2z0JzQuNC90L3QtdCw0L_QvtC70LjRgSwg0JzQuNC90L3QtdGB0L7RgtCwLCDQodCo0JA!5e0!3m2!1sru!2sby!4v1727948837031!5m2!1sru!2sby" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 </div>
 </body>
 </html>
